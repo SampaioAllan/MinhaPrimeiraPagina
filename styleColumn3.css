@@ -1,0 +1,27 @@
+.cabecalho{
+    max-width: 85vw;
+    height: 3vw;
+    margin: 5vw auto;
+    border-radius: 5px;
+    padding: auto;
+    background-color: rgb(236, 0, 0);
+    text-align: center;
+}
+.conteudo{
+    max-width: 80vw;
+    border-radius: 20px;
+    background-color: rgb(1, 11, 11);
+    height: 38vw;
+    margin: 5vw auto;
+}
+.card{
+    width: 20vw;
+    height: 10vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    border-radius: 10px;
+    background-color: rgb(74, 73, 79);
+    text-align: center;
+    color: aliceblue;
+    float: left;
+}
