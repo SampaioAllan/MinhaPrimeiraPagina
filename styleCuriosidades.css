@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(127, 127, 252);
+}
+.comidas{
+    margin: 12px 12px;
+    margin-top: 130px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    height:45%;
+    width: 45%; 
+    background-color: rgb(165, 202, 31);
+    float: left;
+}
+.hobbies{
+    margin: 12px 12px;
+    margin-top: 130px;
+    padding: 10px 10px;
+    height:45%;
+    width: 45%; 
+    background-color: rgb(165, 202, 31);
+    float: left;
+}

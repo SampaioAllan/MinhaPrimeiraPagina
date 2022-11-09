@@ -1,0 +1,44 @@
+.sobreMim{
+    width: 97%;
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: aqua;
+    color: rgb(183, 0, 0);
+}
+.minhaRotina{
+    margin: 10px 10px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    height:40%;
+    width: 40%; 
+    background-color: rgb(127, 255, 174);
+    float: left;
+}
+.musicas{
+    margin: 10px 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    height:40%;
+    width: 40%; 
+    background-color: rgb(148, 127, 255);
+    float: left;
+}
+.viagens{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    height:40%;
+    width: 40%; 
+    background-color: rgb(127, 255, 174);
+    float: right;
+}
+.curiosidades{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    height:40%;
+    width: 40%; 
+    background-color: rgb(148, 127, 255);
+    float: right;
+}
+.linkHome{
+    color: rgb(171, 92, 13);
+}
