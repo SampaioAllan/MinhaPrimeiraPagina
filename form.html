@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Escreva o modelo do carro</label>
+            <input type="text" nome="modelo" placeholder="Modelo">
+        </div>
+        <div>
+            <label>Escreva a marca do carro</label>
+            <input type="text" nome="marca" placeholder="Marca">
+        </div>
+        <div>
+            <label>Escreva o ano do carro</label>
+            <input type="text" nome="ano" placeholder="Ano">
+        </div>
+        <div>
+            <label>Escreva a quilometragem do carro</label>
+            <input type="text" nome="quilometragem" placeholder="Quilometragem">
+        </div>
+        <div>
+            <label>Escreva o valor do carro</label>
+            <input type="text" nome="valor" placeholder="Valor">
+        </div>
+        <div>
+            <span>Seu carro é: </span>
+            <label for="novo">Novo</label>
+            <input type="radio" id="novo" name="conservacao" value="Novo">
+            <label for="usado">Usado</label>
+            <input type="radio" id="usado" name="conservacao" value="usado">
+        </div>
+        <div>
+            <label>Final Placa</label>
+            <select name="finalPlaca" id="finalPlaca">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+        </div>
+        <div>
+            <label>Opcionais: </label>
+
+            <label for="airBag">airBag</label>
+            <input type="checkbox" name="airBag" id="airBag" value="airBag">
+
+            <label for="alarme">alarme</label>
+            <input type="checkbox" name="alarme" id="alarme" value="">
+
+            <label for="arCondicionado">ar-condicionado</label>
+            <input type="checkbox" name="arCondicionado" id="arCondicionado" value="arCondicionado">
+
+            <label for="vidrosEletricos">vidros eletricos</label>
+            <input type="checkbox" name="vidrosEletricos" id="vidrosEletricos" value="vidrosEletricos">
+        </div>
+        <div>
+            <input type="submit" name="cadastrar" id="cadastrar" placeholder="Cadastrar">
+        </div>
+    </form>
+</body>
+</html>
